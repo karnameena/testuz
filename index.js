@@ -174,6 +174,7 @@ app.get("/w/:path/:uri", (req, res) => {
 
 
 
+app.get("/", (req, res) => res.send("Express on Vercel"));
 
 
 
