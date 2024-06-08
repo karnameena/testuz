@@ -7,7 +7,8 @@
     "node": "14.x"
   },
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "verce-build":"echo hellow"
   },
   "keywords": [],
   "author": "",
