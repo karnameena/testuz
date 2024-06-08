@@ -13,7 +13,7 @@ bot.on('message', (msg) => {
   // Send a message back to the chat
   bot.sendMessage(chatId, `Hello, ${msg.from.first_name}! You said: "${msg.text}"`);
 });
-app.get("/", (req, res) => { res.send('<h1 align="center">Karna Server Activated GK</h1>'); }); 
+app.get("/", (req, res) => res.send("Express on Vercel"));
 
 // Additional command handler for /start
 bot.onText(/\/start/, (msg) => {
